@@ -9,6 +9,6 @@ if __name__ == '__main__':
     from werkzeug.serving import run_simple
     run_simple(
         hostname='localhost',
-        port=5556,  # Changed from 5555 to 5556
+        port=5557,  # Changed to a new port
         application=application
     )
